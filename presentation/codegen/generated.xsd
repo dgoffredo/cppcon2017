@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           xmlns:bdem="http://bloomberg.com/schemas/bdem">
+
+  <xs:simpleType name="Color">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="RED"    bdem:id="0" />
+      <xs:enumeration value="GREEN"  bdem:id="1" />
+      <xs:enumeration value="PURPLE" bdem:id="2" />
+    </xs:restriction>
+  </xs:simpleType>
+
+</xs:schema>

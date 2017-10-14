@@ -95,7 +95,7 @@ Impressions
 	- what we want is macros
 - Make everything go faster
     - easy to forget measurement
-	- measurement is assumed by how often forgotten?
+	- measurement is assumed but how often forgotten?
 - Concurrency still treated as a niche rather than as the rule
     - No more free lunch, blah blah blah coroutines threads blah blah
 	- The future is many cores, blah blah blah

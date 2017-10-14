@@ -1,0 +1,20 @@
+
+$ bas_codegen.pl \
+> --mode msg \
+> --msgExpand \
+> --noAggregateConversion \
+> --noExternalization \
+> --package msgs \
+> color.xsd
+The schema is valid
+Generating ./msgs_color.cpp
+Generating ./msgs_color.h
+
+
+
+$ wc -l msgs_color.{h,cpp}
+  167 msgs_color.h
+  119 msgs_color.cpp
+  286 total
+
+$ less msgs_color.{h,cpp}
