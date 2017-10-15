@@ -67,6 +67,8 @@ struct Enum : IMPL {
     ...
 };
 
+#define HELLO(foo, bar) (foo)
+
 #define DEFINE_MACRO(NAME, ...) \
 class NAME ## _Impl {           \
     ...                         \
